@@ -110,9 +110,9 @@ import UIKit
      *
      *  By default the height is 5.0
      *
-     *  segmentedViewController.selectedSegmentViewHeight = 5.0
+     *  segmentedViewController.selectedSegmentViewHeight = 2.0
      */
-    open var selectedSegmentViewHeight: CGFloat = 5.0 {
+    open var selectedSegmentViewHeight: CGFloat = 2.0 {
         didSet {
             segmentedScrollView.selectedSegmentViewHeight = selectedSegmentViewHeight
         }
